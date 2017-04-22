@@ -1,0 +1,125 @@
+body {
+    background-image: url(2017010865813-genova.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1200px;
+   
+}
+
+#myHome ul{
+    background-color:rgba(0,0,0,0.5);
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden ;
+}
+
+#myHome li {
+    float: left;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myHome .prova {
+    float:right;
+} 
+
+#myHome li a{
+    display: block;
+    padding: 20px 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#myHome li a:hover:not(.active) {
+    background-color:red ;
+    color: black;
+    opacity: 0.8;
+}
+
+#myHome ul li ul {
+    display: none;
+}
+
+#myHome ul li:hover ul{
+    display: block;
+    position: absolute;
+    margin-left: -150px;
+    margin-right: 9px;
+}
+
+#dropdown-content {
+  margin-bottom: -20px;  
+  background: rgba(0,0,0,0.1);
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 1px;
+}
+
+#dropdown-content .username {
+  border: 1px solid #a6a6a6;
+  width: 230px;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 25px;
+  padding-left: 9px;
+  color: #6c6c6c;
+  background: #fcfcfc;
+  outline: none;
+}
+
+#dropdown-content .password {
+  border: 1px solid #a6a6a6;
+  width: 230px;
+  height: 40px;
+  border-radius: 3px;
+  margin-top: 5px;
+  padding-left: 9px;
+  color: #6c6c6c;
+  background: #fcfcfc;
+  outline: none;
+}
+
+#dropdown-content .password:hover,
+#dropdown-content .username:hover {
+  box-shadow: 0 0 10px rgba(178, 34, 34, 1);
+  border: 1px #b22222 solid;
+}
+
+.password:focus,
+.username:focus,
+.button:focus,
+.button:hover:focus {
+  box-shadow: 0 0 10px rgba(178, 34, 34, 1);
+  border: 1px #b22222 solid;
+}
+
+#dropdown-content .button {
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #a6a6a6;
+  width: 240px;
+  height: 43px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  outline: none;
+  background: rgb(255, 48, 25);
+}
+
+#dropdown-content .button:hover {
+  background: rgb(204, 0, 0);
+}
+
+#dropdown-content p {
+    color: white;
+    font-size: 15;
+    margin-bottom: 10px;
+}
+	
+#dropdown-content .registration {
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,57 @@
+body{
+    background-image: url(genova_porto_ph-merlo_110920-7641.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#registration {
+  margin: auto;
+  margin-top: 230;
+  vertical-align: middle;
+  background: rgba(0,0,0,0.1);
+  width: 800px;
+  border-radius: 5px;
+  text-align:center;
+  padding: 1px;
+  
+}
+
+#registration h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+
+#registration form .username,.email {
+  border: 1px solid;
+  width: 460px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 9px;
+  color: dimgrey;
+  background: white;
+  margin-bottom: 15px;
+}
+
+
+#registration .password {
+  border: 1px solid;
+  width: 230px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 9px;
+  color: dimgrey;
+  background: white;
+
+}
+
+#registration .submit {
+    margin-top: 15px;
+    background : crimson;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    
+    
+}
