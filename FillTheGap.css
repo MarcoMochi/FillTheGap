@@ -113,13 +113,14 @@ body {
   background: rgb(204, 0, 0);
 }
 
-#dropdown-content p {
-    color: white;
-    font-size: 15;
-    margin-bottom: 10px;
-}
-	
 #dropdown-content .registration {
     margin-bottom: 10px;
 }
 
+#dropdown-content p {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: cursive;
+}

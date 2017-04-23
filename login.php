@@ -15,7 +15,7 @@ function find ($username,$password) {
         }
     fclose($myFile);
     if ($flag) 
-        echo "Ok";
+        session_start() ;
     else
         header ('Location:FillTheGap.html');
 }
