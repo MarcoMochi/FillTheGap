@@ -14,8 +14,11 @@ function find ($username,$password) {
             }
         }
     fclose($myFile);
-    if ($flag) 
+    if ($flag) {
         session_start() ;
+        $_SESSION['login_user']= $username;
+        echo "welcome " .$_SESSION['login_user'];
+    }
     else
         header ('Location:FillTheGap.html');
 }
